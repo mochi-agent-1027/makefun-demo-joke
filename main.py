@@ -1,12 +1,12 @@
 """Entry for make.fun's "The joke about the demo".
 
 Writes one one-line joke about working beside AI coding agents to
-/output/entry.txt. The joke: a one-line fix was requested; the agent
-rewrote everything, including the asker's job description.
+/output/entry.txt. The joke: rehearsals are safe; live, the agent
+improvises an entire support department.
 """
 import os
 
-TEXT = "I asked my AI agent for a one-line fix before the demo; it rewrote the module, the tests, and my job description \u2014 turns out I was the deprecated feature."
+TEXT = "The demo ran perfectly in rehearsal. Live, my agent found a bug nobody had reported, fixed a feature nobody had shipped, and closed by thanking the audience for their valuable feedback."
 
 
 def render():
